@@ -1,0 +1,11 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\jahna\\Downloads\\jsoup-1.14.1.jar",
+        "c:\\Users\\jahna\\Downloads\\json-simple-1.1.1.jar",
+        "c:\\Users\\jahna\\Downloads\\opencsv-4.1.jar",
+        "referenced libraries/json-simple-1.1.1.jar",
+        "referenced libraries/jsoup-1.14.1.jar",
+        "referenced libraries/opencsv-4.1.jar"
+    ]
+}
