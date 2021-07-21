@@ -32,7 +32,7 @@ this has to be done solely based on Extension and Name of the file itself.
 ## Execution Flow
 1. Data collection using Web Scraping from fileproinfo.com, fileinfo.com and data extraction using XML parsing with Apache Tika
 2. Collected data gets stored inside respective .json file
-3. The main file executes the input for fileinfo, filrproinfo and for Apache Tika, and each will recieve their outputs in respective csv output file.
+3. The main file executes the input for fileinfo, filrproinfo and for Apache Tika, and each will recieve their outputs in respective csv output file. This whole process will be conducted with multi-threading, which will decrease the execution time.
 
 ## Input
 Default input is input2.csv, but user can change it according to need. 
@@ -73,10 +73,13 @@ Extension	Description	Category	Format	Programming Language	Program Support
 
 
 ## Steps to run the Program
+1. The code uses three referenced libraries namely json-simple-1.1.1.jar, jsoup-1.14.1.jar, opencsv-4.1.jar, these three libraries which will have to be manually added to the project according to the ide is being used.
+2. To execute the code the MainClass.java file has to be run.
+3. The input files are being called from the input folder, and the output .csv files will be stored in the output folder. And these output files( FileInfoSourceOutput.csv, FileProSourceOutput.csv, TikaSourceOutput.csv.) are being created corresponding to the three data sources.
 
 ## Developers
 * Het Patel
-* Jhanvi Gouru
+* Jahnavi Gouru
 
 
 
